@@ -1,0 +1,46 @@
+.all-container {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.top-tool-container {
+    display: flex;
+    align-items: center;
+    height: 8%;
+    /* border-bottom: 1px solid rgb(229, 229, 229); */
+}
+
+.property-box-topTitle-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(16, 89, 225);
+}
+
+.entire-workspace {
+    position: relative;
+    display: flex;
+    height: 90%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.canvas-container {
+    position: relative;
+    flex: 5;
+    overflow: auto;
+    background-color: rgb(238, 238, 238);
+}
+
+.canvas-el-container {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

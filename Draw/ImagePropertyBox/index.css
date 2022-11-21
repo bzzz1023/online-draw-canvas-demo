@@ -1,0 +1,26 @@
+.image-property-box-container {
+    position: relative;
+    /* padding: 6px; */
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+.image-property-box-item-label {
+    margin-right: 10px;
+    width: 60px;
+}
+
+.image-property-box-item-color-showBox {
+    width: 30px;
+    height: 20px;
+    border-radius: 4px;
+    border: 1px solid rgb(182, 182, 182);
+}
+
+.image-property-box-item {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
